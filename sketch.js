@@ -5,6 +5,8 @@ var bubble = {
 
 function setup() { // built-in P5.JS function -=- this runs once
 	createCanvas(600, 400); 
+        bubble1 = new Bubble(200, 200, 40)
+        bubble2 = new Bubble(200, 200, 40)
 }
 
 function draw() { // built-in P5.JS function -=-  automatic loop that repeats forever
